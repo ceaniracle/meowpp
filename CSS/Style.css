@@ -1,4 +1,4 @@
- body {
+        body {
             background-color: #111827;
             color: white;
             min-height: 100vh;
@@ -255,12 +255,6 @@
             justify-content: center;
         }
 
-         body {
-            background-color: #111827;
-            color: white;
-            min-height: 100vh;
-        }
-
         .header-custom {
             position: fixed;
             top: 0;
@@ -385,56 +379,56 @@
             padding-bottom: 2rem;
         }
 
-        body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background-color: #000;
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      padding: 20px;
-      box-sizing: border-box;
-    }
+        body.signup-page {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-height: 100vh;
+         background-color: #000;
+         font-family: Arial, Helvetica, sans-serif;
+         margin: 0;
+         padding: 20px;
+         box-sizing: border-box;
+        }
 
-    .signup-card {
-      width: 100%;
-      max-width: 350px;
-      padding: 30px;
-      border-radius: 15px;
-      background: linear-gradient(180deg, #1FA2FF, #12D8FA, #A6FFCB);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    }
+        .signup-card {
+         width: 100%;
+         max-width: 350px;
+         padding: 30px;
+         border-radius: 15px;
+         background: linear-gradient(180deg, #1FA2FF, #12D8FA, #A6FFCB);
+         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
 
-    .signup-card h2 {
-      margin-bottom: 20px;
-      font-weight: bold;
-      color: #fff;
-      text-align: center;
-    }
+        .signup-card h2 {
+         margin-bottom: 20px;
+         font-weight: bold;
+         color: #fff;
+         text-align: center;
+        }
 
-    .form-control {
-      width: 100%;
-      border-radius: 25px;
-      padding: 12px 16px;
-      margin-bottom: 15px;
-      border: none;
-      font-size: 16px;
-      box-sizing: border-box;
-    }
+        .form-control {
+         width: 100%;
+         border-radius: 25px;
+         padding: 12px 16px;
+         margin-bottom: 15px;
+         border: none;
+         font-size: 16px;
+         box-sizing: border-box;
+        }
 
-    .btn-signup {
-      border-radius: 25px;
-      background: #9ca3ff;
-      border: none;
-      font-weight: bold;
-      padding: 12px;
-      width: 100%;
-      color: #fff;
-      cursor: pointer;
-      font-size: 16px;
-    }
+        .btn-signup {
+         border-radius: 25px;
+         background: #9ca3ff;
+         border: none;
+         font-weight: bold;
+         padding: 12px;
+         width: 100%;
+         color: #fff;
+         cursor: pointer;
+         font-size: 16px;
+        }
 
-    .btn-signup:hover {
-      background: #7d85ff;
-    }
+        .btn-signup:hover {
+         background: #7d85ff;
+        }
